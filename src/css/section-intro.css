@@ -1,0 +1,12 @@
+.section-intro {
+    color: var(--color-light);
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.75;
+}

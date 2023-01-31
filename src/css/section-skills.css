@@ -1,0 +1,29 @@
+.section-skills {
+    margin-bottom: 64px;
+}
+
+.section-skills__header {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 18px;
+}
+
+.section-skills .skill {
+    margin-bottom: 15px;
+}
+
+.section-skills .skill p {
+    letter-spacing: 10px;
+}
+
+.progress {
+    color: #fff;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.progress span {
+    background-color: #616161;
+    padding: 4px 8px;
+    display: block;
+}

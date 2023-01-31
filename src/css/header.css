@@ -1,0 +1,132 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 50;
+}
+
+
+.header::before {
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-100%);
+    transition: transform var(--transition-duration) var(--transition-timing-function);
+}
+
+.header--scrolled::before {
+    transform: translateY(0);
+
+}
+
+.header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.header ul a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    color: inherit;
+}
+
+.header ul a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.header ul i {
+    margin-right: 2px;
+}
+
+.nav,
+.search {
+    position: relative;
+    z-index: 2;
+}
+
+.header--scrolled {
+    color: #000;
+}
+
+.nav-toggle {
+    display: none;
+
+}
+
+@media only screen and (max-width:1023px) {
+
+    .header--open .nav {
+        color: #000;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .nav ul {
+        display: block;
+    }
+
+    .nav li:not(:first-child) {
+        display: none;
+        background-color: #fff;
+    }
+
+    .nav li i {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+
+    .nav-toggle {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        background: none;
+        appearance: none;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-toggle:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .nav-toggle span {
+        width: 12px;
+        height: 2px;
+        display: block;
+        background-color: currentColor;
+        margin: 1px auto;
+        color: inherit;
+    }
+
+
+    .header--open .nav li:not(:first-child) {
+        display: block;
+    }
+}

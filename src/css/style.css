@@ -1,0 +1,13 @@
+@import './general.css';
+@import './grid/style.css';
+@import './header.css';
+@import './buttons.css';
+@import './section-intro.css';
+@import './logo.css';
+@import './section-about.css';
+@import './section-skills.css';
+@import './section-statistics.css';
+@import './section-work.css';
+@import './section-contact.css';
+@import './form.css';
+@import './footer.css';

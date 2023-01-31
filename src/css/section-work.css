@@ -1,0 +1,36 @@
+.section-work {
+    padding: 64px 16px;
+}
+
+.section-work__header h3,
+.section-work__header p {
+    text-align: center;
+}
+
+.section-work__header h3 {
+    margin-bottom: 15px;
+}
+
+.section-work__header p {
+    margin-bottom: 15px;
+}
+
+.section-work__footer {
+    padding-top: 64px;
+    text-align: center;
+}
+
+.section-work__footer .button {
+    text-transform: uppercase;
+    padding: 12px 24px;
+}
+
+.work-item {
+    padding-bottom: 12px;
+}
+
+.work-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

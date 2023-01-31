@@ -1,0 +1,11 @@
+.logo {
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+    display: block;
+    padding: 12px 24px;
+    letter-spacing: 10px;
+    font-size: 24px;
+    text-align: center;
+}

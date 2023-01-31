@@ -1,0 +1,36 @@
+.section-about {
+    --grid-gap: 48px;
+    padding: 64px 16px;
+}
+
+.section-about__header h3,
+.section-about__header p:nth-child(2) {
+    text-align: center;
+}
+
+.section-about__header p {
+    margin: 15px 0;
+}
+
+.section-about__body figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.6;
+    border-radius: 4px;
+}
+
+.section-about__body figure img:hover {
+    opacity: 1;
+}
+
+.section-about__body figure i {
+    margin-right: 16px;
+}
+
+.section-about__body figcaption {
+    padding: 8px;
+    margin-bottom: 48px;
+    text-align: center;
+    margin: 15px 0;
+}
